@@ -1,0 +1,85 @@
+body{
+    background: #fff9ec;
+}
+.icon {
+    text-align: center;
+}
+.bg-a .card{
+    background: #9bd3d0;
+}
+.bg-b .card{
+    background: #fec447;
+}
+.bg-c .card{
+    background: #feccb5;
+}
+.bg-d .card{
+    background: #92b5ff;
+}
+.bg-e .card{
+    background: #c4d39b;
+}
+.bg-f .card{
+    background: #d2ceff;
+}
+.solid-black {
+    background: black;
+}
+#Contact {
+    background: #fff2d7;
+}
+footer{
+    background: black;
+    color:white;
+}
+.footer .nav a + a {
+    margin-left: 18px;
+    color:white;
+}
+.get-in-touch img {
+    border: 3px solid #ffaf0e;
+    padding: 10px;
+}
+a {
+    color: white;
+}
+.get-in-touch {
+    background: url(https://pxdraft.com/themeforest/krinky/assets/img/effect/bg-effect-3.png);
+    background-size: cover;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.cur{
+  font-family: 'Sacramento', cursive;  
+}
+.cur {
+    font-family: 'Sacramento', cursive;
+    font-size: 46px;
+}
+.banner {
+    background: url("../assets/dark.png");
+}
+@media only screen and (min-width: 786px) {
+    .vh{
+        height: 87vh;
+    }
+  }
+  @media only screen and (max-width: 786px) {
+    div#banner .row {
+        flex-direction: column-reverse;
+    }
+    .w-75 {
+        width: 100%!important;
+    }
+    button.navbar-toggler {
+        background: white;
+    }
+    div#started, .banner {
+        padding-bottom: 20px;
+    }
+  }
